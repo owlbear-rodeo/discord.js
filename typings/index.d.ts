@@ -9,7 +9,7 @@ declare enum ChannelType {
   unknown = 7,
 }
 
-declare module 'discord.js' {
+declare module '@owlbear-rodeo/discord.js' {
   import BaseCollection from '@discordjs/collection';
   import { ChildProcess } from 'child_process';
   import { EventEmitter } from 'events';
